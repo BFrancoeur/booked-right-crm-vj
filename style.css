@@ -1,0 +1,79 @@
+/*
+ Main app styles
+ */
+
+ /* ----- Reset ----- */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ /* ----- Layout ----- */
+.pad-all-20 {
+    padding: 20px;
+}
+
+ .flex {
+    display: flex;
+ }
+
+ .flex-dir-r {
+    flex-direction: row;
+ }
+
+ .flex-dir-c {
+    flex-direction: column;
+ }
+
+ .align-items-ctr {
+    align-items: center;
+ }
+ .jc-start {
+    justify-content: start;
+ }
+
+ .flex-width-15pct {
+    flex-basis: 15%;
+ }
+
+ .flex-width-85pct {
+    flex-basis: 85%;
+ }
+
+ .col-1 {
+    flex-basis: 100%;
+ }
+ 
+ .col-2 {
+    flex-basis: 50%;
+ }
+
+ .col-3 {
+    flex-basis: 33.33%;
+ }
+
+ .col-4 {
+    flex-basis: 25%;
+ }
+
+ .col-5 {
+    flex-basis: 20%;
+ }
+
+ ul {
+    list-style: none;
+    list-style-type: none;
+ }
+
+ .text-align-ctr {
+    text-align: center;
+ }
+
+ .hl-bot-1px {
+    border-bottom: 1px solid #a0a0a0;
+ }
+
+ .font-size-2xl {
+    font-size: 2.5rem;
+ }

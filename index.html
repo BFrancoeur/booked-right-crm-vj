@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-color-pale-gray">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<!-- The body will have a desktop width: 1024px - 1600px, tablet: 768px - 1024px, and mobile: 320px - 768px -->
+<body class="pad-all-20">
+    <!-- logo width: 15% nav width: 85%, implement flexbox in css-->
+    <header class="hl-bot-1px">
+        <!-- app logo, navigation -->
+        <nav class="nav flex flex-dir-r jc-start">
+            <div class="logo flex-width-15pct align-items-ctr"><span class="logo font-size-2xl">BR</span></div>
+            <ul class="nav-menu flex flex-width-85pct align-items-ctr jc-start">
+                <li class="menu-item col-5"><a href="/dashboard">Dashboard</a></li>
+                <li class="menu-item col-5"><a href="/leads">Leads</a></li>
+                <li class="menu-item col-5"><a href="/deals">Deals</a></li>
+                <li class="menu-item col-5"><a href="/customers">Customers</a></li>
+                <li class="menu-item col-5"><a href="/sales">Sales</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="hl-bot-1px">
+        <!-- main page content - dashboard default -->
+         <div class="dashboard flex jc-start flex-dir-c hl-bot-1px">
+            <div class="data-card col-1 hl-bot-1px">
+                <h2 class="card-title text-align-ctr">Leads</h2>
+                <h2 class="card-content"><!-- data display goes here --></h2>
+            </div>
+
+            <div class="data-card col-1 hl-bot-1px">
+                <h2 class="card-title text-align-ctr">Customers</h2>
+                <h2 class="card-content"><!-- data display goes here --></h2>
+            </div>
+
+            <div class="data-card col-1 hl-bot-1px">
+                <h2 class="card-title text-align-ctr">Sales</h2>
+                <h2 class="card-content"><!-- data display goes here --></h2>
+            </div>
+
+         </div>
+         
+    </main>
+    <footer class="hl-bot-1px">
+        <!-- bottom of page links, copyright, etc. -->
+    </footer>
+</body>
+</html>
